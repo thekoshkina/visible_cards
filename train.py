@@ -1,6 +1,6 @@
 import torch
 from torchvision import models
-from code.dataset import Dataset
+from dataset import Dataset
 from torchvision import transforms
 from torch.autograd import Variable
 import argparse

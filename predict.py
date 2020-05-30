@@ -2,9 +2,9 @@ from PIL import Image
 import argparse
 from torchvision import transforms
 import torch
-from code.train import Model
+from train import Model
 
-parser = argparse.ArgumentParser(description='Process some integers.')
+parser = argparse.ArgumentParser(description='Process some images.')
 parser.add_argument('-image_path', type=str, required=True, help='path to the image for inference')
 parser.add_argument('-model_weights', type=str, default='best_checkpointt.pth', help='path to the image for inference')
 
